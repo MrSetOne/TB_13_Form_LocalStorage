@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: min(90vw, 40rem);
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+form textarea {
+    width: min(90vw, 40rem);
+    height: 25rem;
+}
+
+.main__container {
+    width: 300px;
+}
